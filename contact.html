@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <title>Contact Us</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+            background-color: #f4f4f4;
+        }
+        .container {
+            text-align: center;
+            padding: 50px 20px;
+        }
+        .container h1 {
+            font-size: 36px;
+            margin-bottom: 10px;
+        }
+        .container p {
+            font-size: 18px;
+            margin-bottom: 20px;
+        }
+        .form-group {
+            margin: 20px 0;
+        }
+        .form-group input {
+            padding: 10px;
+            width: 300px;
+            margin: 10px 0;
+            border: 1px solid #ccc;
+            border-radius: 5px;
+        }
+        .form-group button {
+            padding: 10px 20px;
+            border: none;
+            border-radius: 5px;
+            background-color: #0e9fb3;
+            color: white;
+            font-size: 16px;
+            cursor: pointer;
+        }
+        .form-group button:hover {
+            background-color: #0097a7;
+        }
+        .info-section {
+            display: flex;
+            justify-content: space-around;
+            padding: 40px 20px;
+            background-color: #0e9fb3;
+            color: white;
+        }
+        .info-box {
+            text-align: center;
+            width: 30%;
+        }
+        .info-box img {
+            width: 50px;
+            height: 50px;
+            margin-bottom: 10px;
+        }
+        .info-box h3 {
+            margin-bottom: 10px;
+        }
+        .info-box p {
+            margin: 0;
+            font-size: 16px;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <a href='CinePick.html'><img src='CinePick.png'></a>
+    </header>
+    <nav>
+        <a href="CinePick.html">Home</a>
+        <a href="quiz.html">Take the Quiz</a>
+        <a href="local films.html">Watch Local</a>
+        <a href="Reviews.html">Reviews</a>
+        <a href="#contact">Contact</a>
+    </nav>
+    <div class="container">
+        <h1>Contact Us</h1>
+        <p>Any questions or remarks? Just write us a message!</p>
+        <div class="form-group">
+            <input type="email" placeholder="Enter a valid email address" required>
+        </div>
+        <div class="form-group">
+            <input type="text" placeholder="Message" required>
+        </div>
+        <div class="form-group">
+            <button type="submit" onclick="ok()">Send</button>
+        </div>
+        
+    </div>
+    <div class="info-section">
+        <a href="mailto:bindungdindomanj112.com"><div class="info-box">
+            <img src="https://img.icons8.com/ios-filled/50/ffffff/email.png" alt="About us"><a href="mailto:bindungdindomanj112.com"></a>
+            <p>Mail us</p>
+            
+        </div>
+        <div class="info-box">
+            <img src="https://img.icons8.com/ios-filled/50/ffffff/place-marker.png" alt="Office Location">
+            <p>Dept. of Mas communication</p>
+            <p>RGU</p>
+            
+        </div>
+        <div class="info-box">
+            <a href="tel:+918414808087"> <img src="https://img.icons8.com/ios-filled/50/ffffff/phone.png" alt="Phone"></a>
+            <p>Call us</p>
+        </div>
+    </div>
+    <footer>
+        <div class="f" id="con">
+            <ul>
+                <li> <a href="tel:+918414808087"><img src="call.png" alt="Call" width="30px"></a> </li>
+                <li><a href="mailto:bindungdindomanj112.com"><img src="mail.png" alt="Mail"  width="30px"></a> </li>
+                <li><a href="https://www.facebook.com/cine-pick"><img src="fb.png" alt="Facebook"  width="30px"></a> </li>
+                <li><a href="https://www.instagram.com/cine_pick/"><img src="insta.png" alt="Instagram"  width="30px"></a> </li>
+                <li><a href="https://twitter.com/cine_pick"><img src="twitter.png" alt="Twitter"  width="30px"></a> </li>
+            </ul>
+                            
+        </div>
+        <p>&copy; Manj_says_hi</p>
+    </footer>
+
+    <script>
+        function ok() {
+          alert("thank you for contacting us");
+        }
+        </script>
+</body>
+</html>

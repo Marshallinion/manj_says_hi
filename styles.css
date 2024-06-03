@@ -1,0 +1,260 @@
+
+main {
+    font-family: Arial, sans-serif;
+    margin: 10;
+    padding: 20px;
+    box-sizing: border-box;
+    background-color: #f4f4f4;
+    text-align: center;
+    align-content: center;
+}
+.quiz-container h2 {
+    text-decoration:solid;
+    font-size: 30px;
+    background-color: #01a7bd;
+    color: #000000;
+    border-radius: 10px;
+}
+h2{
+    background-color: #0e9fb3;
+    color: #e9e9e9;
+}
+button{
+    background: #c00202;
+    color: #fff;
+}
+button:hover{
+    background: #690000;
+    color: #e9e9e9;
+    width: 100px;
+    
+}
+
+                                                    /*quiz*/
+.quiz-container{
+    background-color: #ffffff;
+    backdrop-filter: blur(5px);
+    border-radius: 10px;
+    width: 80%;
+    max-width: 600px;
+    margin: auto;
+    width: 50%;
+    border-style: solid;
+    padding: 10px;
+}
+
+.quiz {
+    background-size: cover;
+    background-position: center;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    margin-top: 4%;
+    margin-bottom: 2%;
+    padding-bottom: 3%;
+    
+}
+
+.question {
+    margin: 20px 0;
+    
+}
+
+.slide {
+    display: none;
+}
+
+.slide.active {
+    display: block;
+}
+
+.radio-container {
+    display: inline-block;
+    cursor: pointer;
+    padding: 5px;
+    margin: 10px;
+    user-select: none;
+    transition: background-color 0.3s, border-color 0.3s;
+}
+
+.radio-container input {
+    display: none;
+}
+
+.radio-container:hover {
+    background-color: #0e9fb3;
+    border-radius: 12px;
+}
+
+.radio-container input:checked + label {
+    
+    border-color: #ffffff;
+    border-radius: 12px;
+}
+                                                /*review*/
+
+#reviewFormSection, #reviewsSection {
+                                       margin: 20px 0;
+                                     }
+                                                
+label {
+  display: block;
+  margin: 10px 0 5px;
+}
+
+input[type="text"], textarea {
+    width: 30%;
+    padding: 10px;
+    margin-bottom: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+
+button[type="submit"] {
+    padding: 10px 20px;
+    background-color: #0e9fb3;
+    color: #fff;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+button[type="submit"]:hover {
+    background-color: #075e69;
+}
+
+#reviewsContainer {
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 4px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.review {
+    margin-bottom: 20px;
+    padding-bottom: 10px;
+    border-bottom: 1px solid #ccc;
+}
+
+.review h4 {
+    margin-bottom: 5px;
+}
+
+.review p {
+    margin: 5px 0;
+}
+
+                                                        /*footer*/
+
+footer{
+    background-color: #00bcd4;
+    padding: 3%;
+    
+}
+.f li{
+    list-style-type: none;
+    text-decoration: none;
+    padding: 4px;
+}
+.f{
+    overflow: auto;
+    display: flex;
+    justify-content: center;
+}
+ul{
+    display: flex; 
+}
+.f li a img:hover{
+   width: 32px;  
+   box-shadow: inset 0 0 100px 100px rgba(0, 0, 0, 0.1);
+}
+footer p{
+  
+    margin-left: 46%;
+    color: white;
+}  
+                                                    /*headerr*/
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+}
+header {
+    background-color: #00bcd4;
+    color: white;
+    padding: 1rem 0;
+    text-align: center;
+}
+header img{
+    width: 260px;
+}
+nav {
+    display: flex;
+    justify-content: center;
+    background-color:#0e9fb3;
+    top: 0px;
+    padding-left: 10;
+}
+nav a {
+    color: white;
+    padding: 1rem;
+    text-decoration: none;
+    text-align: center;
+    padding-left: 10;
+}
+nav a:hover {
+    background-color: #000000;
+}
+
+nav ul {
+list-style-type: none;
+padding: 0;
+}
+
+nav ul li {
+display: inline;
+margin: 0 10px;
+}
+
+nav ul li a {
+color: white;
+text-decoration: none;
+}
+
+form {
+margin: 2em 0;
+}
+
+form label {
+display: block;
+margin: 1em 0 0.5em 0;
+}
+
+select {
+display: block;
+margin-bottom: 1em;
+}
+
+body{
+    background-color: #000000;
+}
+
+
+
+#result{
+    display: flex;
+    width: max-content;
+    justify-content: center;
+    overflow:inherit;
+    padding: 10px;
+    overflow-x: auto;
+}
+
+.movie {
+    padding: 30px; /* Adjust the padding value as needed */
+}
+
+                                                            
